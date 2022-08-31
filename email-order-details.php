@@ -188,10 +188,7 @@ if ($sent_to_admin) {
 														Item</th>
 													<th valign="top" class="kmTextContent" style="color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;width:45%;padding-top:4px;font-weight:bold;padding-bottom:4px;padding-left:0px;padding-right:0px;">
 													</th>
-													<th valign="top" class="kmTextContent" style="color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:right;padding-top:4px;font-weight:bold;padding-bottom:4px;padding-left:0px;padding-right:0px;">
-														Qty</th>
-													<th valign="top" class="kmTextContent" style="color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:right;padding-top:4px;font-weight:bold;padding-bottom:4px;padding-left:0px;padding-right:0px;">
-														Price</th>
+
 												</tr>
 											</thead>
 											<tbody>

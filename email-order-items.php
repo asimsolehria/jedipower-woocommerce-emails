@@ -38,6 +38,15 @@ foreach ($items as $item_id => $item) :
 		$image_id  = $product->get_image_id();
 		$image_url = wp_get_attachment_image_url($image_id, 'full');
 		$url = get_permalink($product->get_id());
+		$name = $product->get_name();
+	}
+
+	if (strtolower($name) === 'zoe supreme') {
+		$before = '<a href="<?php echo $url; ?>" _self" style="word-wrap:break-word;color:#E36E3A;font-weight:normal;text-decoration:underline">';
+		$after = '</a>';
+	} else {
+		$before = '';
+		$after = '';
 	}
 
 ?>
@@ -49,14 +58,15 @@ foreach ($items as $item_id => $item) :
 			<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0">
 				<tr>
 					<td class="kmImageContent" valign="top" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;padding:0;padding-top:0px;padding-bottom:0;padding-left:9px;padding-right:9px;">
-						<a href="<?php echo $url; ?>" _self" style="word-wrap:break-word;color:#E36E3A;font-weight:normal;text-decoration:underline">
-							<img align="left" alt="" class="kmImage" src="<?php echo $image_url; ?>" width="174" style="border:0;height:auto;line-height:100%;outline:none;text-decoration:none;padding-bottom:0;display:inline;vertical-align:bottom;margin-right:0;max-width:200px;">
-						</a>
+						<?php echo $before; ?>
+						<img align="left" alt="" class="kmImage" src="<?php echo $image_url; ?>" width="174" style="border:0;height:auto;line-height:100%;outline:none;text-decoration:none;padding-bottom:0;display:inline;vertical-align:bottom;margin-right:0;max-width:200px;">
+						<?php echo $after; ?>
+
 					</td>
 				</tr>
 			</table>
 		</td>
-		<td valign="top" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;width:45%;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
+		<td valign="middle" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;width:45%;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
 			<p style="margin:0;padding-bottom:0">
 				<?php
 
@@ -84,29 +94,7 @@ foreach ($items as $item_id => $item) :
 				?>
 			</p>
 		</td>
-		<td valign="top" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:right;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
-			<p style="margin:0;padding-bottom:0">
 
-				<?php
-				$qty          = $item->get_quantity();
-				$refunded_qty = $order->get_qty_refunded_for_item($item_id);
-
-				if ($refunded_qty) {
-					$qty_display = '<del>' . esc_html($qty) . '</del> <ins>' . esc_html($qty - ($refunded_qty * -1)) . '</ins>';
-				} else {
-					$qty_display = esc_html($qty);
-				}
-				echo wp_kses_post(apply_filters('woocommerce_email_order_item_quantity', $qty_display, $item));
-				?>
-
-			</p>
-		</td>
-		<td valign="top" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;border-right:none;text-align:right;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
-
-
-			<?php echo wp_kses_post($order->get_formatted_line_subtotal($item)); ?>
-
-		</td>
 	</tr>
 
 
