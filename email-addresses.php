@@ -34,17 +34,17 @@ $shipping   = $order->get_formatted_shipping_address();
 											<table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTable" width="100%" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;background-color:#FFFFFF;">
 												<thead>
 													<tr>
-														<th valign="top" class="kmTextContent" style="color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;padding-right:0px;padding-bottom:4px;font-weight:bold;padding-left:0px;padding-top:4px;">
+														<th valign="top" class="kmTextContent" style="color:#000000;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;padding-right:0px;padding-bottom:4px;font-weight:bold;padding-left:0px;padding-top:4px;">
 															Shipping Address
 														</th>
-														<th valign="top" class="kmTextContent" style="color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;padding-right:0px;padding-bottom:4px;font-weight:bold;padding-left:0px;padding-top:4px;">
+														<th valign="top" class="kmTextContent" style="color:#000000;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;padding-right:0px;padding-bottom:4px;font-weight:bold;padding-left:0px;padding-top:4px;">
 															Billing Address
 														</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr class="kmTableRow">
-														<td valign="top" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;border-bottom:none;text-align:left;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
+														<td valign="top" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#000000;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;border-bottom:none;text-align:left;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
 
 															<?php if (!wc_ship_to_billing_address_only() && $order->needs_shipping_address() && $shipping) : ?>
 
@@ -58,7 +58,7 @@ $shipping   = $order->get_formatted_shipping_address();
 
 															<?php endif; ?>
 														</td>
-														<td valign="top" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;border-right:none;border-bottom:none;text-align:left;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
+														<td valign="top" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#000000;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;border-right:none;border-bottom:none;text-align:left;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
 															<address>
 																<?php echo wp_kses_post($address ? $address : esc_html__('N/A', 'woocommerce')); ?>
 																<?php if ($order->get_billing_phone()) : ?>

@@ -20,8 +20,10 @@ defined('ABSPATH') || exit;
 
 $text_align  = is_rtl() ? 'right' : 'left';
 $margin_side = is_rtl() ? 'left' : 'right';
+$counter=0;
 
 foreach ($items as $item_id => $item) :
+	$counter++;
 	$product       = $item->get_product();
 	$sku           = '';
 	$purchase_note = '';
@@ -41,8 +43,8 @@ foreach ($items as $item_id => $item) :
 		$name = $product->get_name();
 	}
 
-	if (strtolower($name) === 'zoe supreme') {
-		$before = '<a href="<?php echo $url; ?>" _self" style="word-wrap:break-word;color:#E36E3A;font-weight:normal;text-decoration:underline">';
+	if ($counter===1) {
+		$before = '<a href="' . $url . '" target="_self" style="word-wrap:break-word;color:#000000;font-weight:normal;text-decoration:underline">';
 		$after = '</a>';
 	} else {
 		$before = '';
@@ -54,7 +56,7 @@ foreach ($items as $item_id => $item) :
 
 
 	<tr class="kmTableRow">
-		<td valign="top" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;width:35%;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
+		<td valign="top" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#000000;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;width:35%;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
 			<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0">
 				<tr>
 					<td class="kmImageContent" valign="top" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;padding:0;padding-top:0px;padding-bottom:0;padding-left:9px;padding-right:9px;">
@@ -66,14 +68,15 @@ foreach ($items as $item_id => $item) :
 				</tr>
 			</table>
 		</td>
-		<td valign="middle" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;width:45%;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
+		<td valign="middle" class="kmTextContent" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#000000;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;text-align:left;width:45%;;border-top-style:solid;padding-bottom:4px;padding-right:0px;padding-left:0px;padding-top:4px;border-top-color:#d9d9d9;border-top-width:1px;">
 			<p style="margin:0;padding-bottom:0">
 				<?php
 
 
 				// Product name.
+				echo $before;
 				echo wp_kses_post(apply_filters('woocommerce_order_item_name', $item->get_name(), $item, false));
-
+				echo $after;
 				// SKU.
 				if ($show_sku && $sku) {
 					echo wp_kses_post(' (#' . $sku . ')');

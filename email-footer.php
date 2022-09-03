@@ -61,7 +61,7 @@ defined('ABSPATH') || exit;
 										<table align="left" border="0" cellpadding="0" cellspacing="0" class="kmTextContentContainer" width="100%" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0">
 											<tbody>
 												<tr>
-													<td class="kmTextContent" valign="top" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;padding-top:9px;padding-bottom:9px;background-color:#FFFFFF;padding-left:18px;padding-right:18px;">
+													<td class="kmTextContent" valign="top" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#000000;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left;padding-top:9px;padding-bottom:9px;background-color:#FFFFFF;padding-left:18px;padding-right:18px;">
 													</td>
 												</tr>
 											</tbody>
@@ -329,7 +329,7 @@ defined('ABSPATH') || exit;
 										<table align="left" border="0" cellpadding="0" cellspacing="0" class="kmSplitContentOuter" width="100%" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0">
 											<tbody>
 												<tr>
-													<td class="kmSplitContentInner" valign="top" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0">
+													<td class="kmSplitContentInner" valign="top" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;padding-bottom: 10;">
 														<table align="left" border="0" cellpadding="0" cellspacing="0" class="kmSplitContentLeftContentContainer" width="264" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0">
 															<tbody>
 																<tr>
@@ -338,22 +338,26 @@ defined('ABSPATH') || exit;
 																			<tbody>
 																				<tr>
 																					<td style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: none;">
-																						<a class="notEditable" href="https://www.facebook.com/GamingPCBundles" style="color: #ce2f2e; text-decoration: none; -webkit-text-size-adjust: none;">
-																							<img src="http://s3.amazonaws.com/templates.themes.email/jura/facebook.png" width="20" height="20" align="center" link="http://www.facebook.com/" style="display: block; border: none; font-size: 14px; font-weight: bold; height: auto; outline: none; text-decoration: none; text-transform: capitalize; vertical-align: middle; margin-right: 10px;" title="" alt="" border="" data-pagespeed-url-hash="4084013702" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+																						<a class="notEditable" href="https://www.facebook.com/GamingPCBundles" style="color: #fff; text-decoration: none; -webkit-text-size-adjust: none;">
+																							<img src="https://www.gamingpcbundle.co.uk/wp-content/uploads/2022/08/Gaming-PC-Bundle-Facebook.webp" width="30" height="30" align="center" link="http://www.facebook.com/" style="border-radius: 100%;display: block; border: none; font-size: 14px; font-weight: bold; height: auto; outline: solid; text-decoration: none; text-transform: capitalize; vertical-align: middle; margin-right: 10px;" title="" alt="" border="" data-pagespeed-url-hash="4084013702" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
 																					</td>
 																					<td width="25" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: none;">
 																					</td>
 																					<td style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: none;">
-																						<a class="notEditable" href="https://twitter.com/GamingPCBundle" style="color: #ce2f2e; text-decoration: none; -webkit-text-size-adjust: none;">
-																							<img src="http://s3.amazonaws.com/templates.themes.email/jura/twitter.png" width="20" height="20" align="center" link="http://www.twitter.com/" style="display: block; border: none; font-size: 14px; font-weight: bold; height: auto; outline: none; text-decoration: none; text-transform: capitalize; vertical-align: middle; margin-right: 10px;" title="" alt="" border="" data-pagespeed-url-hash="1214428269" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+																						<a class="notEditable" href="https://twitter.com/GamingPCBundle" style="color: #fff; text-decoration: none; -webkit-text-size-adjust: none;">
+																							<img src="https://www.gamingpcbundle.co.uk/wp-content/uploads/2022/08/Gaming-PC-Bundle-Twitter.webp" width="30" height="30" align="center" link="http://www.twitter.com/" style="border-radius: 100%;display: block; border: none; font-size: 14px; font-weight: bold; height: auto; outline: solid; text-decoration: none; text-transform: capitalize; vertical-align: middle; margin-right: 10px;" title="" alt="" border="" data-pagespeed-url-hash="1214428269" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
 																					</td>
 																					<td width="25" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: none;">
 																					</td>
 																					<td style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: none;">
-																						<a class="notEditable" href="https://www.instagram.com/gamingpcbundle/" style="color: #ce2f2e; text-decoration: none; -webkit-text-size-adjust: none;">
-																							<img src="http://s3.amazonaws.com/templates.themes.email/jura/instagram.png" width="20" height="20" align="center" link="http://instagram.com/" style="display: block; border: none; font-size: 14px; font-weight: bold; height: auto; outline: none; text-decoration: none; text-transform: capitalize; vertical-align: middle; margin-right: 10px;" title="" alt="" border="" data-pagespeed-url-hash="4186207260" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+																						<a class="notEditable" href="https://www.instagram.com/gamingpcbundle/" style="color: #fff; text-decoration: none; -webkit-text-size-adjust: none;">
+																							<img src="https://www.gamingpcbundle.co.uk/wp-content/uploads/2022/08/Gaming-PC-Bundle-Instagram.webp" width="30" height="30" align="center" link="http://instagram.com/" style="border-radius: 100%;display: block; border: none; font-size: 14px; font-weight: bold; height: auto; outline: solid; text-decoration: none; text-transform: capitalize; vertical-align: middle; margin-right: 10px;" title="" alt="" border="" data-pagespeed-url-hash="4186307260" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
 																					</td>
 																					<td width="25" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: none;">
+																					</td>
+																					<td style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: none;">
+																						<a class="notEditable" href="https://www.youtube.com/gamingpcbundle" style="color: #fff; text-decoration: none; -webkit-text-size-adjust: none;">
+																							<img src="https://www.gamingpcbundle.co.uk/wp-content/uploads/2022/08/Gaming-PC-Bundle-YouTube.webp" width="30" height="30" align="center" link="http://instagram.com/" style="border-radius: 100%;display: block; border: none; font-size: 14px; font-weight: bold; height: auto; outline: solid; text-decoration: none; text-transform: capitalize; vertical-align: middle; margin-right: 10px;" title="" alt="" border="" data-pagespeed-url-hash="4186207260" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
 																					</td>
 																				</tr>
 																			</tbody>
@@ -365,10 +369,17 @@ defined('ABSPATH') || exit;
 														<table align="right" border="0" cellpadding="0" cellspacing="0" class="kmSplitContentRightContentContainer" width="264" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0">
 															<tbody>
 																<tr>
-																	<td class="kmTextContent" valign="top" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#505050;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left">
-																		<p style="margin:0;padding-bottom:0;text-align: right;">
-																			<strong><span style="font-size:11px;"><span style="font-family: arial, sans-serif; line-height: 19.2000007629395px;">©
-																						GAMING PC BUNDLE</span></span></strong>
+																	<td class="kmTextContent" valign="top" style="border-collapse:collapse;mso-table-lspace:0;mso-table-rspace:0;color:#000000;font-family:Helvetica, Arial;font-size:14px;line-height:150%;text-align:left">
+																		<p style="margin:0;padding-bottom:0;padding-top:10;text-align: right;">
+																			<strong>
+																				<span style="font-size:11px;">
+																					<span style="font-family: arial, sans-serif; line-height: 19.2000007629395px;">
+																						<a href="https://www.gamingpcbundle.co.uk/" style="color: #fff;text-decoration: none;">©
+																							GAMING PC BUNDLE</a>
+
+																					</span>
+																				</span>
+																			</strong>
 																		</p>
 																	</td>
 																</tr>
